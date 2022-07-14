@@ -133,3 +133,17 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] bg-purple rounded-full;
 }
+
+/* ===== PRESENTATION SECTION ===== */
+.presentation__group {
+  @apply grid grid-cols-[max-content] justify-center gap-8;
+}
+.presentation__content {
+  @apply text-center;
+}
+.presentation__content-title {
+  @apply text-[28px] text-black font-bold  mb-2;
+}
+.presentation__content-text {
+  @apply text-[15px] text-grey;
+}
