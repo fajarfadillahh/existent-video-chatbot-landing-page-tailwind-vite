@@ -94,3 +94,42 @@
 .works__content-text {
   @apply text-[15px] text-grey leading-text transition-all duration-300 group-hover:text-white;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-6 p-8 bg-white rounded-[20px] transition-all duration-300;
+}
+.testimonial__content-list {
+  @apply flex items-center gap-1;
+}
+.testimonial__content-star {
+  @apply inline-flex text-[1.3rem] text-[#fbae43];
+}
+.testimonial__content-title {
+  @apply text-[17px] text-black font-semibold mb-2;
+}
+.testimonial__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-2;
+}
+.testimonial__content-img {
+  @apply w-[55px];
+}
+.testimonial__content-name {
+  @apply text-[17px] text-black font-semibold mb-1;
+}
+.testimonial__content-profession {
+  @apply text-[15px] text-grey;
+}
+/* swiper pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-[10px] h-[10px] bg-black bg-opacity-80 transition-all duration-300;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-[2rem] h-[10px] bg-purple rounded-full;
+}
