@@ -61,3 +61,22 @@
 .features__content:nth-child(1) .features__content-button {
   @apply bg-yellow;
 }
+
+/* ===== INTEGRATES SECTION ===== */
+.integrates__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,0.8fr))] justify-center gap-12;
+}
+.integrates__content {
+  @apply grid gap-5 p-8 bg-white rounded-[20px];
+}
+.integrates__content-text,
+.integrates__content-tag {
+  @apply text-[15px] text-grey leading-text;
+}
+.integrates__content-text b {
+  @apply text-black;
+}
+.integrates__content:nth-child(6),
+.integrates__content:nth-child(6) .integrates__content-text {
+  @apply bg-yellow text-black;
+}
