@@ -43,3 +43,21 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__group {
+  @apply grid gap-48;
+}
+.features__content {
+  @apply grid gap-12;
+}
+.features__content-data,
+.features__content-img {
+  @apply justify-self-center;
+}
+.features__content-text {
+  @apply mb-8;
+}
+.features__content:nth-child(1) .features__content-button {
+  @apply bg-yellow;
+}
