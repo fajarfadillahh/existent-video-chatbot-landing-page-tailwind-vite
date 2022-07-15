@@ -147,3 +147,23 @@
 .presentation__content-text {
   @apply text-[15px] text-grey;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-16;
+}
+.footer__data-sosmed {
+  @apply flex items-center gap-2;
+}
+.footer__data-social {
+  @apply inline-flex justify-center items-center w-[45px] h-[45px] border-2 border-solid border-grey border-opacity-50 rounded-full text-[1.5rem] text-white transition-all duration-300 hover:bg-white hover:text-[#000b2e] hover:border-white;
+}
+.footer__content-title {
+  @apply text-[20px] text-white font-bold mb-6;
+}
+.footer__content-list {
+  @apply flex flex-col gap-4;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:underline hover:text-white;
+}
