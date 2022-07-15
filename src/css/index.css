@@ -189,3 +189,25 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-[rgba(0,0,0,0.2)] hover:bg-[rgba(0,0,0,0.3)];
 }
+
+/* ===== MEDIA QUERIES ===== */
+/* width 480px */
+@screen xs {
+  .home__data,
+  .features__content-data,
+  .integrates__data,
+  .works__data,
+  .callback__data {
+    @apply w-[400px];
+  }
+
+  .testimonial__title {
+    @apply w-[400px] mx-auto justify-self-center;
+  }
+
+  .home__img,
+  .features__content-img,
+  .callback__img {
+    @apply w-[400px];
+  }
+}
