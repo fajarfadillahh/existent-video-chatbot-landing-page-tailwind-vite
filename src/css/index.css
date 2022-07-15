@@ -250,3 +250,65 @@
     @apply w-[500px];
   }
 }
+
+/* width 968 */
+@screen lg {
+  .header__list {
+    @apply gap-8;
+  }
+
+  /* home sectio */
+  .home__data {
+    @apply w-[700px];
+  }
+  .home__title {
+    @apply text-[42px];
+  }
+  .home__text {
+    @apply w-[450px] mx-auto;
+  }
+  .home__buttons {
+    @apply flex-row justify-center;
+  }
+  .home__img {
+    @apply w-[800px];
+  }
+
+  /* features section */
+  .features__content {
+    @apply grid-cols-2 items-center;
+  }
+  .features__content-data,
+  .features__content-img {
+    @apply w-auto;
+  }
+  .features__content-button {
+    @apply inline-flex;
+  }
+  .features__content:nth-child(2) .features__content-data {
+    @apply order-2;
+  }
+
+  /* integrates & testimonial section */
+  .integrates__data,
+  .testimonial__title {
+    @apply w-[600px];
+  }
+
+  /* works section */
+  .works__data {
+    @apply justify-self-start;
+  }
+
+  /* callback section */
+  .callback__container {
+    @apply grid-cols-2 items-center;
+  }
+  .callback__img,
+  .callback__data {
+    @apply w-auto;
+  }
+  .callback__button {
+    @apply inline-flex;
+  }
+}
