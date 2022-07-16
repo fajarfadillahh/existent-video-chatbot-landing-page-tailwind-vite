@@ -251,7 +251,7 @@
   }
 }
 
-/* width 968 */
+/* width 968px */
 @screen lg {
   .header__list {
     @apply gap-8;
@@ -310,5 +310,44 @@
   }
   .callback__button {
     @apply inline-flex;
+  }
+}
+
+/* width 1120px */
+@screen xl {
+  .section-text,
+  .button,
+  .header__link,
+  .integrates__content-text,
+  .integrates__content-tag,
+  .integrates__content-button,
+  .works__content-text,
+  .testimonial__content-text,
+  .testimonial__content-profession,
+  .presentation__content-text,
+  .footer__data-text,
+  .footer__content-link,
+  .footer__copy {
+    @apply text-[16px];
+  }
+
+  .home__img {
+    @apply w-[950px];
+  }
+
+  .features__content {
+    @apply gap-24;
+  }
+
+  .presentation__group {
+    @apply gap-24;
+  }
+
+  .callback__container {
+    @apply grid-cols-[1fr_0.8fr] items-center gap-24;
+  }
+
+  .footer__content {
+    @apply justify-self-end;
   }
 }
